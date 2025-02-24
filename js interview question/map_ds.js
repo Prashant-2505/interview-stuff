@@ -3,6 +3,19 @@ then creates an iterator using the `keys()` method and uses it to access the key
 order using the `next()` method. The console logs the value of each key returned by the iterator. */
 
 
+// Method	Description
+// set(key, value)	    Adds or updates a key-value pair
+// get(key)	        Retrieves the value for a given key
+// has(key)	        Checks if a key exists
+// delete(key)	        Removes a specific key-value pair
+// clear()	            Removes all elements from the Map
+// size	            Returns the number of key-value pairs
+// keys()	            Returns an iterator of all keys
+// values()	        Returns an iterator of all values
+// entries()	        Returns an iterator of [key, value] pairs
+// forEach(callback)	        Iterates over the Map
+
+
 const map = new Map();
 map.set('key1','value1');
 map.set('key2', 'value2');

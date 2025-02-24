@@ -1,3 +1,4 @@
+
 function debounce(fn, delay) {
     let timerId; 
     return function(...args) {
@@ -8,6 +9,8 @@ function debounce(fn, delay) {
     };
 }
 
+
+
 function greet(say) {
     console.log(say);
 }
@@ -17,6 +20,6 @@ const debouncedGreet = debounce(greet, 2000);
 debouncedGreet("hiii"); 
 
 
-// setInterval(()=>{
-//     debouncedGreet("hiii"); 
-// },1000)
+setInterval(()=>{
+    debouncedGreet("hiii"); 
+},1000)
